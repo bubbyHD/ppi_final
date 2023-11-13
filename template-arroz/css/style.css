@@ -2432,7 +2432,11 @@ ul {
   display: table;
   width: 100%;
   height: 820px;
+  background-image: url("https://lab.anahuac.mx/~a00444232/homeoffice.jpg");
+  background-repeat: no-repeat;
+  background-position: center 30%; /* Adjusts the position of the background image */
 }
+
 
 /* line 11, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
 .banner_part .single_banner_slider .banner_text .banner_text_iner {
@@ -7414,7 +7418,7 @@ h6 {
 
 /* line 1, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("https://lab.anahuac.mx/~a00444232/fundayout-min");
+  background-image: url("https://lab.anahuac.mx/~a00444232/fundayout");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7443,8 +7447,10 @@ h6 {
 
 /* line 19, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-  color: #222222;
+  color: #FFFFFF;
   font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background */
+  padding: 10px; /* Adds some space around the text */
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -7481,8 +7487,11 @@ h6 {
 /* line 42, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
   font-size: 15px;
-  color: #777777;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background */
+  padding: 10px; /* Adds some space around the text */
 }
+
 
 /* line 47, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
